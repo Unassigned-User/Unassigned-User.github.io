@@ -33,7 +33,3 @@ img {
 	border-color: var(--border-off);
 	margin: auto;
 }
-
-img:hover{
-	border-color: var(--border-on);
-}
