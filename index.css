@@ -3,5 +3,7 @@
 }
 
 .central_logo{
-	border: 1px solid skyblue;
+	border: 3px solid skyblue;
+	height: 50px;
+	border-radius: 50%;
 }
