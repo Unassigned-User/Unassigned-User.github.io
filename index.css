@@ -2,7 +2,8 @@
 	box-sizing: border-box;
 	background-color: black;
 	--text-color: #fff;
-	--border-color: #5BCEFA;
+	--border-off: #046184; /* Color goes between #046184 (Off) and #5BCEFA (On), */
+	--border-on: #5BCEFA; /* starting at Off as the color should change when icon is clicked */
 }
 
 @font-face {
@@ -29,6 +30,10 @@ img {
 	width: 10%;
 	border-radius: 50%;
 	border: 5px solid;
-	border-color: var(--border-color);
+	border-color: var(--border-off);
 	margin: auto;
+}
+
+img:hover{
+	border-color: var(--border-on);
 }
