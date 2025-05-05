@@ -3,15 +3,9 @@
 	background-color: black;
 }
 
-.central_logo{
-	border: 5px solid skyblue;
-	height: 50px;
-	width: 50px;
-	border-radius: 50%;
-}
-
 img {
 	height: 50px;
 	width: 50px;
 	border-radius: 50%;
+	border: 5px solid skyblue;
 }
