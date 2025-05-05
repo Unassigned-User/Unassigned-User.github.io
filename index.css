@@ -1,6 +1,17 @@
 * {
 	box-sizing: border-box;
 	background-color: black;
+	--text-color: ;
+}
+
+@font-face {
+	font-family: RetroFont;
+	src: url(Retro Gaming.ttf);
+}
+
+body {
+	font-family: RetroFont;
+	color: var(--text-color);
 }
 
 .main_grid {
