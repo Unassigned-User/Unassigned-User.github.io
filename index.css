@@ -15,7 +15,11 @@ body {
 }
 
 .main_grid {
-	padding: 50px;
+	display: block;
+}
+
+.central_logo{
+	margin-top: 200px;
 }
 
 img {
