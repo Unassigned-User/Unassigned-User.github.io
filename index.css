@@ -2,6 +2,7 @@
 	box-sizing: border-box;
 	background-color: black;
 	--text-color: #fff;
+	--border-color: #5BCEFA;
 }
 
 @font-face {
@@ -27,6 +28,7 @@ img {
 	height: 10%;
 	width: 10%;
 	border-radius: 50%;
-	border: 5px solid skyblue;
+	border: 5px solid;
+	border-color: var(--border-color);
 	margin: auto;
 }
