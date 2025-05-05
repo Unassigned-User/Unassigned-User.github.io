@@ -13,11 +13,19 @@
 <body>
 	<div class="main_grid">
 		<h1> R1L3Y Network Access Terminal</h1>
+		<p id="demo"></p>
 		<div class="central_logo">
-			<button> 
+			<a href="#">
 				<img id = "login-button" src="images/UP_Logo.png" alt="R1L3Y Central Logo - Press to show options">
-			</button>
+			</a>
 		</div>
 	</div>
+	<style>
+		function loginSequence(){
+			document.getElementById("demo").innerHTML = "Hello World";
+		}
+		var loginButton = document.getElementById("login-button");
+		toggleButton.addEventListener("click", loginSequence);
+	</style>
 </body>
 </html>
