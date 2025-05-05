@@ -3,12 +3,15 @@
 	background-color: black;
 }
 
+.main_grid {
+	padding: 50px;
+}
+
 img {
 	display: block;
 	height: 10%;
 	width: 10%;
 	border-radius: 50%;
 	border: 5px solid skyblue;
-	margin-top: 30px;
 	margin: auto;
 }
